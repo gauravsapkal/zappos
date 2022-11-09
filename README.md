@@ -1,5 +1,6 @@
 # Zappos Clone
 
+### [Deployed Link](https://zappos-official.netlify.app/) |  [Blog Link](https://gaurav1.hashnode.dev/zappos-clone) |  [JSON Server](https://zappos-server.herokuapp.com/)
 
 ## Functionalities
 
