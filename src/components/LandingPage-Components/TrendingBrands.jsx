@@ -8,7 +8,7 @@ const TrandingBrands = () => {
 
   useEffect(() => {
     const getCarosuledata = () => {
-      fetch(`https://zappos-server.herokuapp.com/Trendingbrands`)
+      fetch(`https://my-json-server-uk9r.onrender.com/Trendingbrands`)
         .then((res) => res.json())
         .then((data) => setCardata(data))
         .catch((err) => {

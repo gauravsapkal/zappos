@@ -16,7 +16,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { brandfilter } from "../Redux/action";
-const url = `https://zappos-server.herokuapp.com/brands`;
+const url = `https://my-json-server-uk9r.onrender.com/brands`;
 const Brands = (props) => {
   const [brands, setBrands] = useState([]);
   // const { value, getCheckboxProps } = useCheckboxGroup();

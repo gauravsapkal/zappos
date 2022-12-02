@@ -16,7 +16,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { genderfilter } from "../Redux/action";
-const url = `https://zappos-server.herokuapp.com/gender`;
+const url = `https://my-json-server-uk9r.onrender.com/gender`;
 const Gender = (props) => {
   const [gender, setGender] = useState([]);
   // const { value, getCheckboxProps } = useCheckboxGroup();

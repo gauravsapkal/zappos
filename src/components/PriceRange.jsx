@@ -16,7 +16,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { pricefilter } from "../Redux/action";
-const url = `https://zappos-server.herokuapp.com/priceRange`;
+const url = `https://my-json-server-uk9r.onrender.com/priceRange`;
 
 const PriceRange = (props) => {
   const [data, setData] = useState([]);

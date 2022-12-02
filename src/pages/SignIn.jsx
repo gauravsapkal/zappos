@@ -70,7 +70,7 @@ const SignIn = () => {
 
   useEffect(() => {
     const getusers = () => {
-      fetch(`https://zappos-server.herokuapp.com/users`)
+      fetch(`https://my-json-server-uk9r.onrender.com/users`)
         .then((res) => res.json())
         .then((data) => setUsers(data));
     };

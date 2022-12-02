@@ -1,6 +1,6 @@
 # Zappos Clone
 
-### [Deployed Link](https://zappos-official.netlify.app/) |  [Blog Link](https://gaurav1.hashnode.dev/zappos-clone) |  [JSON Server](https://zappos-server.herokuapp.com/)
+### [Deployed Link](https://zappos-official.netlify.app/) |  [Blog Link](https://gaurav1.hashnode.dev/zappos-clone) |  [JSON Server](https://my-json-server-uk9r.onrender.com/)
 
 ## Functionalities
 
@@ -69,7 +69,7 @@
 
 - [GitHub](https://github.com/Royanosh/zappos)
 
-- [Heroku Server](https://zappos-server.herokuapp.com/)
+- [Heroku Server](https://my-json-server-uk9r.onrender.com/)
 
 - [Blog](https://gaurav1.hashnode.dev/zappos-clone)
 

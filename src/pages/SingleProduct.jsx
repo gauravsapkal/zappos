@@ -27,7 +27,7 @@ const SingleProduct = () => {
   useEffect(() => {
     setLoading(true);
     const getData = () => {
-      fetch(`https://zappos-server.herokuapp.com/${cat}/${id}`)
+      fetch(`https://my-json-server-uk9r.onrender.com/${cat}/${id}`)
         .then((res) => res.json())
         .then((res1) => setData(res1))
         .catch((err) => setError(true))

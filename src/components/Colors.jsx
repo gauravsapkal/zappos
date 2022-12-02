@@ -14,7 +14,7 @@ import {
   useCheckboxGroup,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-const url = `https://zappos-server.herokuapp.com/colors`;
+const url = `https://my-json-server-uk9r.onrender.com/colors`;
 const Colors = (props) => {
   const [colors, setColors] = useState([]);
   // const { value, getCheckboxProps } = useCheckboxGroup();

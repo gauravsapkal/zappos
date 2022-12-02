@@ -20,7 +20,7 @@ const WomensClothing = () => {
   };
 
   useEffect(() => {
-    fetch(`https://zappos-server.herokuapp.com/womenclothsPro`)
+    fetch(`https://my-json-server-uk9r.onrender.com/womenclothsPro`)
       .then((response) => response.json())
       .then((product) => {
         setProducts(product);
@@ -34,7 +34,7 @@ const WomensClothing = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`https://zappos-server.herokuapp.com/pricecell`)
+    fetch(`https://my-json-server-uk9r.onrender.com/pricecell`)
       .then((response) => response.json())
       .then((product) => {
         setPrice(product);
@@ -47,7 +47,7 @@ const WomensClothing = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`https://zappos-server.herokuapp.com/womencloths`)
+    fetch(`https://my-json-server-uk9r.onrender.com/womencloths`)
       .then((response) => response.json())
       .then((product) => {
         setWomenCloth(product);
@@ -60,7 +60,7 @@ const WomensClothing = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`https://zappos-server.herokuapp.com/womenclothsPage`)
+    fetch(`https://my-json-server-uk9r.onrender.com/womenclothsPage`)
       .then((response) => response.json())
       .then((product) => {
         setWomenClothPro(product);

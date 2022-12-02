@@ -85,7 +85,7 @@ function reducer(state = initState, { type, payload }) {
       }
       // console.log(state.userprofile)
       fetch(
-        `https://zappos-server.herokuapp.com/users/${state.userprofile.id}`,
+        `https://my-json-server-uk9r.onrender.com/users/${state.userprofile.id}`,
         {
           //update for json integration
           method: "PATCH",
@@ -110,7 +110,7 @@ function reducer(state = initState, { type, payload }) {
       });
 
       fetch(
-        `https://zappos-server.herokuapp.com/users/${state.userprofile.id}`,
+        `https://my-json-server-uk9r.onrender.com/users/${state.userprofile.id}`,
         {
           //update for json integration
           method: "PATCH",
@@ -142,7 +142,7 @@ function reducer(state = initState, { type, payload }) {
       });
 
       fetch(
-        `https://zappos-server.herokuapp.com/users/${state.userprofile.id}`,
+        `https://my-json-server-uk9r.onrender.com/users/${state.userprofile.id}`,
         {
           //update for json integration
           method: "PATCH",
@@ -177,7 +177,7 @@ function reducer(state = initState, { type, payload }) {
     //     return elem.count > 0;
     //   })
 
-    //   fetch(`https://zappos-server.herokuapp.com/users/${state.userprofile.id}`,{     //update for json integration
+    //   fetch(`https://my-json-server-uk9r.onrender.com/users/${state.userprofile.id}`,{     //update for json integration
     //       method: 'PATCH',
     //       body: JSON.stringify({
     //         cart: newcart,
@@ -203,7 +203,7 @@ function reducer(state = initState, { type, payload }) {
       let orders = [...state.cart];
 
       fetch(
-        `https://zappos-server.herokuapp.com/users/${state.userprofile.id}`,
+        `https://my-json-server-uk9r.onrender.com/users/${state.userprofile.id}`,
         {
           //update for json integration
           method: "PATCH",

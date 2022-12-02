@@ -9,7 +9,7 @@ const PopularItems = () => {
 
   useEffect(() => {
     const getCarosuledata = () => {
-      fetch(`https://zappos-server.herokuapp.com/popularitems`)
+      fetch(`https://my-json-server-uk9r.onrender.com/popularitems`)
         .then((res) => res.json())
         .then((data) => setCardata(data))
         .catch((err) => {

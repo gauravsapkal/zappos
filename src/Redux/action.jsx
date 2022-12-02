@@ -75,7 +75,7 @@ export const clearfilter = () => ({
 });
 
 export const register = (user) => (dispatch) => {
-  fetch(`https://zappos-server.herokuapp.com/users`, {
+  fetch(`https://my-json-server-uk9r.onrender.com/users`, {
     method: "POST",
     body: JSON.stringify(user),
     headers: {

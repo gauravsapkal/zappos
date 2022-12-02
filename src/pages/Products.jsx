@@ -58,7 +58,7 @@ import Gender from "../components/Gender";
 import { NavLink, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { brandfilter, clearfilter, genderfilter, pricefilter } from "../Redux/action";
-const url = `https://zappos-server.herokuapp.com`;
+const url = `https://my-json-server-uk9r.onrender.com`;
 
 const Products = () => {
   const { value, getCheckboxProps } = useCheckboxGroup();
